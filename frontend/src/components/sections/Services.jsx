@@ -88,7 +88,7 @@ const Services = () => {
                   </div>
 
                   {/* hover line */}
-                  <span className="absolute left-0 bottom-0 h-[1px] w-0 bg-white group-hover:w-full transition-all duration-700 ease-in-out" />
+                  <span className="absolute left-0 bottom-0 h-[1px] w-0 bg-white group-hover:w-full transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]" />
                   {/* subtle hover background */}
                   <span className="absolute inset-0 bg-white/0 group-hover:bg-white/[0.02] transition-colors duration-500 pointer-events-none" />
                 </motion.article>
